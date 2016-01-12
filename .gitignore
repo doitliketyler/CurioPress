@@ -1,0 +1,7 @@
+.DS_Store
+.sass-cache
+/img/
+/js/
+node_modules
+style.css
+style.min.css

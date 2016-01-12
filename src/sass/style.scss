@@ -1,0 +1,20 @@
+/*
+Theme Name: CurioPress
+Theme URI: https://github.com/doitliketyler/CurioPress
+Author: Tyler A. King
+Author URI: http://tylerking.red
+Description: A theme kit for Wordpress.
+Version: 1.0.0
+License: MIT License
+License URI: https://opensource.org/licenses/MIT
+Text Domain: bsd-press
+Tags: underscores, bourbon, neat, bitters
+*/
+
+// Bourbon, Neat & Bitters
+@import "bourbon/bourbon";
+@import "base/base";
+@import "neat/neat";
+
+// Theme Styles
+@import "theme/global";

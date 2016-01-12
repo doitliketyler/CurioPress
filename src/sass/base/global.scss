@@ -1,0 +1,29 @@
+// Accessbility Links
+.a11y {
+  display: block;
+  height: 0;
+  left: -1000em;
+  overflow: hidden;
+  position: absolute; 
+  width: 0;
+  z-index: 10000;
+}
+
+.a11y:focus {
+	height: auto;
+	left: 0.5em;
+	overflow: visible;
+	padding: 0.5em;
+  position: fixed;  
+  top: 0.5em;  
+  width: 10em; 
+}
+
+// Layout
+#page {
+	
+	header, footer, .site-content {
+		@include outer-container;
+	}
+	
+}

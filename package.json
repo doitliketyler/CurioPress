@@ -1,0 +1,45 @@
+{
+  "name": "CurioPress",
+  "version": "1.0.0",
+  "author": "CurioPress",
+  "description": "A Wordpress Theme",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bourbon",
+    "neat",
+    "bitters"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doitliketyler/CurioPress"
+  },
+  "devDependencies": {
+    "bourbon": "~4.2.6",
+    "browser-sync": "^2.11.0",
+    "browserify": "^13.0.0",
+    "del": "~2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-cache": "~0.4.1",
+    "gulp-concat": "~2.6.0",
+    "gulp-cssnano": "~2.1.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-imagemin": "~2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-notify": "~2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "~1.2.2",
+    "gulp-ruby-sass": "~2.0.6",
+    "gulp-size": "^2.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "~1.5.1",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
